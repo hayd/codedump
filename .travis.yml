@@ -6,4 +6,8 @@ python:
   - "3.2"
   - "3.3"
 
+matrix:
+  allowable-failures:
+    - python: "2.5"
+
 script: nosetests
